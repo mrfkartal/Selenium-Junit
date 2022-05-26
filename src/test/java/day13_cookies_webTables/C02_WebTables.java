@@ -60,13 +60,13 @@ public class C02_WebTables extends TestBase {
             }
         }
 
-        List<WebElement> emailSutunListesi=
+         List<WebElement> emailSutunListesi=
                 driver.findElements(By.xpath("//tbody//td["+(emailSutunNo+1)+"]"));
         for (WebElement each: emailSutunListesi) {
             System.out.println(each.getText());
         }
     }
-    private void girisYap() {
+    private  void girisYap() {
         driver.get("https://www.hotelmycamp.com");
         driver.findElement(By.linkText("Log in")).click();
         Actions actions = new Actions(driver);

@@ -21,6 +21,6 @@ protected WebDriver driver;
     }
     @After
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 }
