@@ -25,7 +25,7 @@ public class Odev1 {
         driver.findElement(By.xpath("//div[@id='title-wrapper']")).click();
         Thread.sleep(10000);
         //driver.findElement(By.xpath("//div[@id='ad-image:4']")).click();
-        driver.findElement(By.xpath("//span[@class='ytp-ad-skip-button-icon']")).click();
+        driver.findElement(By.xpath("//*[@id=\"video-title\"]")).click();
 
     }
 }

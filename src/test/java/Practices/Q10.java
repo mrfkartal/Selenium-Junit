@@ -1,4 +1,4 @@
-package Practice_ElifHoca;
+package Practices;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
